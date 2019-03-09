@@ -10,10 +10,12 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node homepage.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error \" && exit 1",
+    "eject": "react-scripts eject",
+    "heruko-postbuild":"cd public npm install && npm start"
+
   },
   "eslintConfig": {
     "extends": "react-app"

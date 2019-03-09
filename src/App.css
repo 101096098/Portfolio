@@ -11,15 +11,16 @@
   background: linear-gradient(to top, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
-  top: 0;
-  left: 0;
+   left: 0;
   width: 100%;
   height: 100%;
+ 
 }
 
 .avata-img{
   height: 250px;
-  padding-top: 5pm;
+  padding-top: 15pm;
+  margin-top: 15px;
 }
 
 .banner-text{
@@ -27,7 +28,7 @@ background-color: black;
 opacity: 0.8;
 width: 75%;
 border-radius: 10px;
-position: relative;
+object-position: center;
 
 }
 
