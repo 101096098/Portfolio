@@ -41,7 +41,7 @@ class Projects extends Component{
                        Full STack Assignment - Game App
                       </CardText>
                       <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <Button colored href="https://github.com/franklintrinh367/mean_project">GitHub</Button>
                       </CardActions>
                       <CardMenu style={{color: 'black'}}>
                         <IconButton name="share" />
