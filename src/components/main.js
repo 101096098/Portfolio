@@ -6,10 +6,12 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 import Homppage from './homepage';
+import CoverLetter from './coverLetter';
 
 const Main = () =>(
     <Switch>
         <Route exact path = "/" component = { Homppage }/>
+        <Route path = "/cover" component = { CoverLetter }/>
         <Route path = "/about" component = { About }/>
         <Route path = "/contact" component = { Contact }/>
         <Route path = "/projects" component = { Projects }/>

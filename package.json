@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@angular/material": "^7.3.4",
+    "@material-ui/core": "^3.9.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-mdl": "^1.11.0",
@@ -10,12 +12,11 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "node homepage.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error \" && exit 1",
     "eject": "react-scripts eject",
-    "heruko-postbuild":"cd public npm install && npm start"
-
+    "heruko-postbuild": "cd public npm install && npm start"
   },
   "eslintConfig": {
     "extends": "react-app"
