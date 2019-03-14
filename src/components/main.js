@@ -7,10 +7,13 @@ import Projects from './projects';
 import Resume from './resume';
 import Homppage from './homepage';
 import CoverLetter from './coverLetter';
+import { homedir } from 'os';
+import Homepage from './homepage';
 
 const Main = () =>(
     <Switch>
-        <Route exact path = "/" component = { Homppage }/>
+        <Route exact path = "/" component = { Homepage }/>
+        <Route path ="/home" component = {Homepage}/>
         <Route path = "/cover" component = { CoverLetter }/>
         <Route path = "/about" component = { About }/>
         <Route path = "/contact" component = { Contact }/>

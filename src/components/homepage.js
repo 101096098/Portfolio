@@ -3,7 +3,7 @@ import { Grid,Cell } from 'react-mdl';
 import logo from '../images/mypicture.jpg'
 
 
-class Homppage extends Component{
+class Homepage extends Component{
     render(){
         return(
             <div style={{with:'100%', margin: 'auto'}}>
@@ -23,11 +23,11 @@ class Homppage extends Component{
                 
                     <div className=" social-links">
                         {/* Linkedin */}
-                        <a href="http://google.com" rel="noopener noreferrer"  target="_blank">
+                        <a href="https://www.linkedin.com/in/mourarenata/" rel="noopener noreferrer"  target="_blank">
                         <i className="fa fa-linkedin-square" aria-hidden="true" />
                         </a>
                         {/* GitHub */}
-                        <a href="http://google.com" rel="noopener noreferrer"  target="_blank">
+                        <a href="https://github.com/101096098" rel="noopener noreferrer"  target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true" />
                         </a>
                     
@@ -43,4 +43,4 @@ class Homppage extends Component{
     }
 }
 
-export default Homppage;
+export default Homepage;
