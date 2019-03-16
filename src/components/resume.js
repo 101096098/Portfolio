@@ -23,7 +23,7 @@ class Resume extends Component{
                 <h6><b>OBJECTIVE: Project Manager</b></h6>
             </span>
             <span>  
-               <p> <h6> <b>SKILLS & COMPETENCIES:</b></h6></p>
+               <h6> <b>SKILLS & COMPETENCIES:</b></h6>
                <ul>
                 <li> Over 10 years of experience in project management, developing the following areas: 
                    network implementation, quality, focus on largest Telecommunication Providers, 
@@ -45,7 +45,7 @@ class Resume extends Component{
 
     <br/>
             <span> 
-                <p> <h6> <b>EdEDUCATION:</b> </h6></p>
+                <h6> <b>EdEDUCATION:</b> </h6>
                 <ul>
                <li>	Computer Programmer Analyst Program – George Brown – Toronto Ontario Anticipated - May 2019 </li>
                     <p> Projects: </p>
@@ -69,7 +69,7 @@ class Resume extends Component{
             </ul>
             </span>
              <span> 
-                <p> <h6><b>CERTIFICATIONS:</b></h6></p>
+                <h6><b>CERTIFICATIONS:</b></h6>
                 <Table>
                     <TableHead>
                         <TableRow>
@@ -80,7 +80,7 @@ class Resume extends Component{
                 </Table>
             </span>
 <span>
-    <p> <h6> <b>WORK EXPERIENCE:</b></h6></p>
+    <h6> <b>WORK EXPERIENCE:</b></h6>
 
     <p><b>Key Holder,</b> Bath and Body works, Toronto, Ontario, Canada </p>
     <p>	 Mar 2017 to Current</p>
@@ -180,7 +180,7 @@ class Resume extends Component{
 
     </span>
     <span>
-        <p> <b>Volunteer Experience: </b> Dec 2016</p>
+        <h6><b>Volunteer Experience: </b> </h6> Dec 2016
         <ul>
             <li>York West Active Living Centre – Kitchen Assistant, served lunch on Saturday, organized the kitchen at the end of the service. 
                 Interacted with many individuals and developed communication and interpersonal skills</li>

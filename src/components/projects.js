@@ -42,6 +42,8 @@ class Projects extends Component{
                       </CardText>
                       <CardActions border>
                         <Button colored href="https://github.com/franklintrinh367/mean_project">GitHub</Button>
+                        <Button colored href="https://trello.com/b/RX61XDrh/capstone-project">Documents
+                        </Button>
                       </CardActions>
                       <CardMenu style={{color: 'black'}}>
                         <IconButton name="share" />
