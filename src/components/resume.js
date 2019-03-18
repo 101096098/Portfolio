@@ -6,22 +6,26 @@ import TableRow from '@material-ui/core/TableRow';
 class Resume extends Component{
     render(){
         return(
-
-            <div style={{width: '100%', backgroundImage: "url(" + "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiFP6CGas4eUoiyJZGVM0hr495rLR9XBCd5Rh-BSFw6L6fYMo2g" + ")",
-            backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',}}>
+            <div style={{width: '100%', 
+                backgroundImage: `url(" + "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiFP6CGas4eUoiyJZGVM0hr495rLR9XBCd5Rh-BSFw6L6fYMo2g" + ")`,
+                backgroundPosition: 'center', 
+                backgroundSize: 'cover', 
+                backgroundRepeat: 'no-repeat',}}>
             
-            <div style={{ width:'65%', margin: 'auto', backgroundColor:'#f0f4c3', padding: '25px', }}> 
-              <span>
-               <h4 style={{textAlign:'center'}}><b>   Renata Vieira Moura, PMP</b></h4>          
-                <p>1464A Dufferin Street, Toronto M6H 3L2– Ontario – Canada </p>
-                <p>  phone:  (647) 575-0922 </p>
-                <p> email:  renata.moura45@yahoo.com</p>
-
-              </span>
+            <div style={{ width:'65%', 
+                margin: 'auto', 
+                backgroundColor:'#f0f4c3',
+                padding: '25px', }}> 
+                <span>
+                    <h4 style={{textAlign:'center'}}><b>   Renata Vieira Moura, PMP</b></h4>          
+                        <p>1464A Dufferin Street, Toronto M6H 3L2– Ontario – Canada </p>
+                        <p>  phone:  (647) 575-0922 </p>
+                        <p> email:  renata.moura45@yahoo.com</p>
+                </span>
   
-            <span>
-                <h6><b>OBJECTIVE: Project Manager</b></h6>
-            </span>
+                <span>
+                    <h6><b>OBJECTIVE: Project Manager</b></h6>
+                </span>
             <span>  
                <h6> <b>SKILLS & COMPETENCIES:</b></h6>
                <ul>
