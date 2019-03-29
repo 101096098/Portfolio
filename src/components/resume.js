@@ -3,14 +3,17 @@ import Table from '@material-ui/core/Table';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import logo from '../images/titles/resume.JPG'
 class Resume extends Component{
     render(){
         return(
-            <div style={{width: '100%', 
-                backgroundImage: `url(" + "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiFP6CGas4eUoiyJZGVM0hr495rLR9XBCd5Rh-BSFw6L6fYMo2g" + ")`,
-                backgroundPosition: 'center', 
-                backgroundSize: 'cover', 
-                backgroundRepeat: 'no-repeat',}}>
+            <div>
+            <div class="grid1">
+                <img src={logo} width = "68%"  height= "200px" alt="course"/>
+            </div>
+            <div>
+                <br/><br/>
+            </div>
             
             <div style={{ width:'65%', 
                 margin: 'auto', 
@@ -18,8 +21,9 @@ class Resume extends Component{
                 padding: '25px', }}> 
                 <span>
                     <h4 style={{textAlign:'center'}}><b>   Renata Vieira Moura, PMP</b></h4>          
-                        <p>1464A Dufferin Street, Toronto M6H 3L2– Ontario – Canada </p>
-                        <p>  phone:  (647) 575-0922 </p>
+                        <p> 1464A Dufferin Street</p>
+                        <p> Toronto M6H 3L2 Ontario Canada </p>
+                        <p> Phone:  (647) 575-0922 </p>
                         <p> email:  renata.moura45@yahoo.com</p>
                 </span>
   
@@ -49,7 +53,7 @@ class Resume extends Component{
 
     <br/>
             <span> 
-                <h6> <b>EdEDUCATION:</b> </h6>
+                <h6> <b>EDUCATION:</b> </h6>
                 <ul>
                <li>	Computer Programmer Analyst Program – George Brown – Toronto Ontario Anticipated - May 2019 </li>
                     <p> Projects: </p>
@@ -77,8 +81,8 @@ class Resume extends Component{
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell>•Project Manager Professional - PMP</TableCell>
-                            <TableCell>•Cisco - IT Essentials</TableCell>
+                            <TableCell>• Project Manager Professional - PMP</TableCell>
+                            <TableCell>• Cisco - IT Essentials</TableCell>
                         </TableRow>
                     </TableHead>
                 </Table>

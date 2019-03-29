@@ -9,11 +9,13 @@ class Projects extends Component{
         this.state={ acticeTab: 0 };
     }
 
+ 
+    
     toggleCategories(){
 
         if(this.state.acticeTab === 0){
                 return(
-               
+              
                   <div className="projects-grid">
                 
                   {/* Project 1 */}
@@ -26,7 +28,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                       <Button colored href="https://github.com/franklintrinh367/mean_project" target = "_blank">GitHub</Button>
-                      <Button colored href="https://trello.com/b/RX61XDrh/capstone-project">Documents </Button>
+                      <Button colored href="https://github.com/101096098/Capstone_Documents">Documents </Button>
                       {/* <Button colored Link to ="/capstonePictures">Pictures </Button> */}
                     </CardActions>
                     <CardMenu style={{color: '#ffff'}}>
