@@ -6,14 +6,14 @@ class Projects extends Component{
 
     constructor(props){
         super(props);
-        this.state={ acticeTab: 0 };
+        this.state={ activeTab: 0 };
     }
 
  
     
     toggleCategories(){
 
-        if(this.state.acticeTab === 0){
+        if(this.state.activeTab === 0){
                 return(
               
                   <div className="projects-grid">
@@ -29,7 +29,6 @@ class Projects extends Component{
                     <CardActions border>
                       <Button colored href="https://github.com/franklintrinh367/mean_project" target = "_blank">GitHub</Button>
                       <Button colored href="https://github.com/101096098/Capstone_Documents">Documents </Button>
-                      {/* <Button colored Link to ="/capstonePictures">Pictures </Button> */}
                     </CardActions>
                     <CardMenu style={{color: '#ffff'}}>
                       <IconButton name="share" />
@@ -52,7 +51,7 @@ class Projects extends Component{
                   </Card>
                 </div>
                 )
-            }else if (this.state.acticeTab === 1){
+            }else if (this.state.activeTab === 1){
               return(
                <div className="projects-grid">              
               {/* Project 1 */}
@@ -89,7 +88,7 @@ class Projects extends Component{
               </Card>
               </div>
                 )
-            }else if (this.state.acticeTab === 2){
+            }else if (this.state.activeTab === 2){
                 return(
                   <div className="projects-grid">
                 
@@ -103,31 +102,15 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                       <Button colored href="https://github.com/101096098/WEB-DEVELOPMENT-FUNDAMENTALS" target = "_blank">GitHub</Button>
-                      {/* <Button colored href="https://trello.com/b/RX61XDrh/capstone-project">Documents
-                      </Button> */}
                     </CardActions>
                     <CardMenu style={{color: 'black'}}>
                       <IconButton name="share" />
                     </CardMenu>
                   </Card>
-                  {/* Project 2
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#008B8B', height: '300px', 
-                    background: 'url(https://tse2.mm.bing.net/th?id=OIP.GmMtKznzJ1dS8sSzxzR3owHaHa&pid=15.1&P=0&w=300&h=300) center / cover'}} >
-                    Angular Projects</CardTitle>
-                    <CardText>
-                      <b> Game App</b>
-                    </CardText>
-                    <CardActions border>
-                      <Button colored href = "https://github.com/101096098/FullStack-Assignment" target="_blank">GitHub</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                      <IconButton name="share" />
-                    </CardMenu>
-                  </Card> */}
+             
                 </div>
                 )
-            }else if(this.state.acticeTab === 3){
+            }else if(this.state.activeTab === 3){
                 return(
                   <div className="projects-grid">
                 
@@ -170,14 +153,14 @@ class Projects extends Component{
     render(){
       return(
         <div className = "category-tabs">
-        <Tabs activeTab={this.state.acticeTab} onChange={(tabId) => 
-            this.setState({acticeTab: tabId})}ripple>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => 
+            this.setState({activeTab: tabId})}ripple>
             <Tab> Angular</Tab>
             <Tab> PHP</Tab>
             <Tab> HTML</Tab>
             <Tab> C#</Tab>
         </Tabs>
-        <section className="prrjects-grid">
+        <section className="projects-grid">
         <Grid className="projects-grid">
         <Cell col={12}>
         <div className ="content">{this.toggleCategories()}
