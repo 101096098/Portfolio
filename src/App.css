@@ -25,6 +25,11 @@ background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, F
   height: 20%;
  
 }
+.grid1 h1{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 130px;
+}
 
 .projects-grid {
   display: flex;

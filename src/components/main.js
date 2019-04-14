@@ -6,7 +6,6 @@ import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
 import CoverLetter from './coverLetter';
-//import { homedir } from 'os';
 import Homepage from './homepage';
 import Courses from './courses';
 import CapstonePictures from './capstonePicture';

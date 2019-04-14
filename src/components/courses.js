@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import logo from '../images/titles/other.JPG'
+
 
 class Courses extends Component{
     render(){
         return(
             <div>
-            <div class="grid1">
-                <img src={logo} width = "68%"  height= "200px" alt="course"/>
+            <div className = "grid1">
+              
+
+               <h1> Other Courses </h1>
             </div>
             <div>
                 <br/><br/>

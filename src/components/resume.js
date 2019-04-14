@@ -3,13 +3,13 @@ import Table from '@material-ui/core/Table';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import logo from '../images/titles/resume.JPG'
+import { Button, IconButton} from 'react-mdl'
 class Resume extends Component{
     render(){
         return(
             <div>
-            <div class="grid1">
-                <img src={logo} width = "68%"  height= "200px" alt="course"/>
+            <div className = "grid1">
+                <h1> Resume</h1>
             </div>
             <div>
                 <br/><br/>
@@ -194,6 +194,15 @@ class Resume extends Component{
                 Interacted with many individuals and developed communication and interpersonal skills</li>
                 </ul>
 </span>
+
+<span>
+    <h6><b>Links: </b> </h6>
+    <Button colored href="http://www.linkedin.com/in/mourarenata " target = "_blank">Linkedin</Button>
+    {/* <br/> */}
+    <Button colored href="https://github.com/renata-moura" target = "_blank">GitHub</Button>
+
+
+</span> 
   </div>
   </div>
         )

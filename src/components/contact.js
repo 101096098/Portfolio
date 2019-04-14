@@ -40,12 +40,12 @@ class Contact extends Component {
                     renata.moura45@yahoo.com
                   </ListItemContent>
                 </ListItem>
-                {/* <ListItem>
+                <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
+                    rvmoura_1
                   </ListItemContent>
-                </ListItem> */}
+                </ListItem>
               </List>
             </div>
           </Cell>
