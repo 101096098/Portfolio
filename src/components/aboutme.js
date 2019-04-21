@@ -15,21 +15,23 @@ class About extends Component{
                 backgroundColor:'#f0f4c3',
                 padding: '25px', }}> 
               <span>
-                  <h3>
-                <p> My name is Renata Moura and I am a passionate Project Manager Professional
-                     (PMP) since 2012 and just graduated at a Web 
-                     Development program at George Bwon College.</p>
-                <p>Opportunity to acquire new knoledge always makes me accept new challenges. 
-                       In order to develop new skils and put into practice the knowledge acquired in this new 
+                  <h4>
+                  <p> My name is Renata Moura, and I am a passionate, innovative, and self-motivated Project Manager 
+                    since 2005, and just graduated at a Web Development program at George Brown College.</p>
+                    <p>The program introduced me a variety of programing languages and technologies. </p>
+                <p>The opportunity to acquire new knowledge always makes me accept challenges. 
+                       In order to develop new skills and put into practice the knowledge acquired in this 
                        course I am looking for a position in a project team at IT field. </p>
-                <p> Working as a project manager since 2005 implementing telecommunication network.
+                <p> Working as a project manager I have been responsible to implement telecommunication network.
                     Many of my projects was implementing transport and access network, for 
                     companies both large and small.</p>
                 <p> Working as a Key Holder at Bath and Body Works since 2017, having the chance 
                     to develop customer experience and discover different skills </p>
             
                 <p> Excellent communication skills in English, Portuguese and Spanish 
-                    both written and verbal.</p> </h3>
+                    both written and verbal. </p> 
+                    <p> As a hobby I like to cook, watch movies and travel around the world</p></h4>
+
               </span>
               </div>
           </div>

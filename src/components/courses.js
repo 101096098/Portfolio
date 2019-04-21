@@ -21,7 +21,7 @@ class Courses extends Component{
                     {/* <h4 style={{textAlign:'center'}}><b>  Other Courses: </b></h4> */}
                     <ul>
                         <h5>
-                            <li> IT Essentials </li><br />
+                            <li> IT Essentials - Cisco</li><br />
                             <li> React.js Essential Training - Lynda.com</li> <br />
                             <li> Strategic Planning Foundations - Lynda.com</li> <br />
                             <li> Executive Leadership - Lynda.com </li> <br />

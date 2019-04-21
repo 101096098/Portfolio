@@ -19,7 +19,7 @@ class Projects extends Component{
                   <div className="projects-grid">
                 
                   {/* Project 1 */}
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                  <Card shadow={5} style={{minWidth: '450', margin: 'auto', padding: '10px'}}>
                     <CardTitle style={{color: '#008B8B', height: '300px', 
                     background: 'url(https://tse2.mm.bing.net/th?id=OIP.GmMtKznzJ1dS8sSzxzR3owHaHa&pid=15.1&P=0&w=300&h=300) center / cover'}} >
                     Angular Projects</CardTitle>
@@ -35,7 +35,7 @@ class Projects extends Component{
                     </CardMenu>
                   </Card>
                   {/* Project 2 */}
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                  <Card shadow={5} style={{minWidth: '450', margin: 'auto',  padding: '10px'}}>
                     <CardTitle style={{color: '#008B8B', height: '300px', 
                     background: 'url(https://tse2.mm.bing.net/th?id=OIP.GmMtKznzJ1dS8sSzxzR3owHaHa&pid=15.1&P=0&w=300&h=300) center / cover'}} >
                     Angular Projects</CardTitle>
@@ -55,7 +55,7 @@ class Projects extends Component{
               return(
                <div className="projects-grid">              
               {/* Project 1 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto',  padding: '10px'}}>
                 <CardTitle style={{color: '#008B8B', height: '300px', 
                 background: 'url(https://tse3.mm.bing.net/th?id=OIP.FTz1dRPnsfsedgJU1GjNyQHaE8&pid=15.1&P=0&w=279&h=187) center / cover'}} >
                 PHP Projects</CardTitle>
@@ -72,7 +72,7 @@ class Projects extends Component{
                 </CardMenu>
               </Card>
               {/* Project 2 */}
-              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto' , padding: '10px'}}>
                 <CardTitle style={{color: '#008B8B', height: '300px', 
                 background: 'url(https://tse3.mm.bing.net/th?id=OIP.FTz1dRPnsfsedgJU1GjNyQHaE8&pid=15.1&P=0&w=279&h=187) center / cover'}} >
                 PHP Projects</CardTitle>
@@ -93,7 +93,7 @@ class Projects extends Component{
                   <div className="projects-grid">
                 
                   {/* Project 1 */}
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                  <Card shadow={5} style={{minWidth: '450', margin: 'auto',  padding: '10px'}}>
                     <CardTitle style={{color: '#008B8B', height: '300px', 
                     background: 'url(https://tse3.mm.bing.net/th?id=OIP.Tm6TDveFSLzyRm3YiRexJAHaHa&pid=15.1&P=0&w=300&h=300) center / cover'}} >
                     HTML Projects</CardTitle>
@@ -115,7 +115,7 @@ class Projects extends Component{
                   <div className="projects-grid">
                 
                   {/* Project 1 */}
-                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                  <Card shadow={5} style={{minWidth: '450', margin: 'auto',  padding: '10px'}}>
                     <CardTitle style={{color: '#008B8B', height: '300px', 
                     background: 'url(https://tse4.mm.bing.net/th?id=OIP.HdlPYbvGkA7ZogKfwdIKkQHaFS&pid=15.1&P=0&w=240&h=186) center / cover'}} >
                     C# Projects</CardTitle>
